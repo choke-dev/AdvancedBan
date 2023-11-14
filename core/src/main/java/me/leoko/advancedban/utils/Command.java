@@ -381,7 +381,7 @@ public enum Command {
                 if (uuid == null)
                     return;
 
-                String ip = Universal.get().getIps().getOrDefault(name.toLowerCase(), "none cashed");
+                String ip = Universal.get().getIps().getOrDefault(name.toLowerCase(), "none cached");
                 String loc = Universal.get().getMethods().getFromUrlJson("http://ip-api.com/json/" + ip, "country");
                 Punishment mute = PunishmentManager.get().getMute(uuid);
                 Punishment ban = PunishmentManager.get().getBan(uuid);

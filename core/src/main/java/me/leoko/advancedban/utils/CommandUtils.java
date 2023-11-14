@@ -36,7 +36,7 @@ public class CommandUtils {
 		String ip = Universal.get().getIps().get(name);
 
 		if (ip == null)
-		    MessageManager.sendMessage(input.getSender(), "Ipban.IpNotCashed",
+		    MessageManager.sendMessage(input.getSender(), "Ipban.IpNotCached",
 		            true, "NAME", name);
 
 		return ip;

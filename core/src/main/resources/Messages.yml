@@ -43,7 +43,7 @@ Ipban:
   Notification:
   - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
   - "&7For the reason &o%REASON%"
-  IpNotCashed: "&cThere is no saved IP for %NAME%!"
+  IpNotCached: "&cThere is no saved IP for %NAME%!"
 
 Tempban:
   Usage: "&cUsage &8» &7&o/tempban (-s) [Name] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
